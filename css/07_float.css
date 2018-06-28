@@ -1,0 +1,34 @@
+p{
+    background-color: aquamarine; 
+}
+p span{ /* cible les <span> enfants d'une balise <p>*/
+    background-color: rgb(221, 29, 29);
+}
+
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+div{
+    width: 90%; /*EMMET width: 90%; => w90% + tab */
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+.photo{
+    height: 11vh; /* vh= viewport height ou hauteur de l'écran*/
+    width: 8vw; /* vw= viewport width ou Largeur de l'écran*/
+    padding: 5vh; /* EMMET padding: 5vh; => p5vh+ tab */
+    background: url(../img/image.jpg);
+    background-repeat: no-repeat;
+    /* l'image ne se rpete pas - EMMET background-repeat => bgr + tab */
+    border: 5px double orchid; /* 3 valeurs => taille, style et couleuur*/
+    margin: 2vh; /*nEMMET m2vh + tab */
+    float: left; /*effet flottant plaçant les éléments côte à côte alors que dans le flux naturel du web ils se placent les uns au dessus des autres*/
+}
+
+/* par convention cette classe est placée à la fin du fichier CSS*/
+.clear{
+    clear: both;
+}

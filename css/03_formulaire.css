@@ -1,0 +1,9 @@
+label{
+    float: left; /*FLOAT => j'aligne un élément ici sur la gauche*/
+    width: 190px; /*Largeur de mon label*/
+    color: #fff; /*couleur du texte*/
+    background: #cc3d74; /*couleur de fond en code hexadécimal ou RVB*/
+}
+fieldset{
+    width: 
+}

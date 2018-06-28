@@ -1,0 +1,8 @@
+.contenu{
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /* gradient => dégradé - débute avec La 1ère couleur et fini avec la 2de de haut en bas par défaut mais on a ajouté TO LEFT qui fait un dégradé de gauche à droite*/
+    width: 45em; /* largeur*/
+    height: 45em; /*hauteur*/
+    margin: 0 auto; /* pas de marge en haut et en bas (valeur  0) -auto pour les marges de droite et de gauche laissant le navigateur centrer l'élément*/
+    border-radius: 50%; /* la propriété border-radius permet d'arrondir les angles - EMMET border-radius => bdra + tab */
+}

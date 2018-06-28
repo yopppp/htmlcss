@@ -1,0 +1,66 @@
+body {
+    font-size: 25px; /* taille de police en PIXELKS */
+}
+
+h1{
+    background-color: darkblue;
+    color: white;
+}
+
+/* je cible TOUS Les <P> qui sont dans la balise section*/
+section p{
+    color: red;
+}
+/* Le premier <p> */
+section p:first-child{
+    color: darkcyan;
+}
+/*Le dernier <p>*/
+section p:last-child{
+    color: lightgreen;
+}
+/* Les <p> pairs*/
+section p:nth-child(even){
+    background: lightskyblue;
+}
+/*les <p> impairs*/
+section p:nth-child(odd){
+    color: brown;
+}
+/*Les <p> 3 et 10*/
+section p:nth-child(3), section p:nth-child(10){
+    background: coral;
+}
+
+/* je cible une classe avec un point .*/
+.zone1{
+    color: #dc143c;
+}
+
+.zone2{
+    color: #008080;
+}
+.Lime{
+    color: #00ff00
+}
+
+
+/* Je cible un ID avec # */
+#zone3{
+    background-color: #f5deb3; /*EMMET pour backround-color => bgc + tab*/
+}
+/* ajouter du contenu AVANT*/
+#zone3:before{
+    content: "rajouté AVANT";
+    background-color: cyan;
+}
+
+    /*ajouter du contenu APRES*/
+    #zone3:after{
+        content: " rajouté APRES";
+    }
+    /* 2ème puce de la Liste*/
+    li:nth-child(2){
+        background-color: slategray;
+        color: white
+    }
