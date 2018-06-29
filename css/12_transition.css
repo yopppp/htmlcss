@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+ul{ /* selectionne TOUTES les listes <ul>*/
+    list-style: none; /*supprime les puces*/
+    float: left; /*effet flottant à gauche*/
+    margin: 0; /*marges exterieurs*/
+    padding: 0; /*marges interieurs*/
+}
+.left, .right{
+    margin-top: 5em; /*EMMET => mt5em + tab */
+}
+.left ul{ /* Les <ul> qui ont un parent direct ayant la classe .left */
+    margin: 3.2em 0 0 0;
+    }
+    .left ul li{ /* tous les <Li> de la liste <ul> ayant la classe .Left en parent*/
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc; /* EMMMET => bL + tab */
+    padding: 1em;
+    width: 10em;
+    }
+    .left ul li:first-child{ /* Le 1er <li> uniquement */
+    border-top: 1px solid #ccc;
+}
+/*=======FIN 1ere COLONE======*/
+
+ul.liste li{ /* tous les <li> de la liste <ul> qui a la classe .Liste*/
+    border-left: 1px solid #ccc; /*bordure qui ferme la 1ere colonne*/
+}
+
+.right .change ul li{ /* tous les <li> de la liste <ul> ayant la classe .change elle-même enfant de la classe .right*/
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+    text-align: center;
+}
+.right .change ul li:first-child{
+    background-color: #5d5d5d;
+    color: #ffffff;
+    font-weight: bold; /*epaissuer de la police*/
+}
+.right .change ul li:last-child{ /*dernier <LI>*/
+        Border-bottom: 1px solid #ccc;
+    }
+    /*======FIN MISE EN FORME DU TABLEAU=====*/
+
+    /*======EFFETS DE TRANSITION AU SURVOL DE LA SOURIS :hover ======*/
+        .right .change ul:hover{
+            background: linear-gradient(#d5d5d5, #8a8a8a);/*dégradé de haut en bas*/
+            cursor: pointer; /* change l'aspect du curseur*/
+            transform: scale(1.4); /*transform applique un effet 2d et scale() correspond à l'echelle du zoom ainsi obtenu par rapport à la taille d'origine*/
+            transition-duration: 2s; /*durée de l'animation*/
+        }
+        .right .change ul:hover li:first-child{
+            background-color: #000;
+            color: gold;
+        }
+        /*======FIN======*/

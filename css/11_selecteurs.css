@@ -1,0 +1,51 @@
+*{
+    font-family: sans-serif
+}
+
+nav{
+    background: #000;
+    color: #ffffff;
+    padding: 0 0.5em;
+    text-align: center; /* tac + tab */
+    width: 100%;
+    margin: 0;
+    position: fixed; /* nav fixe en haut de la page*/
+    top: 0;
+    left: 0;
+    }
+    nav a{ /* tous les liens enfant de la balise nav*/
+        float: left; /* effet flottant à gauche*/
+        text-decoration: none;/* supprime mise en forme par défaut (effet souligné)*/
+        color: #ffffff;/*couleur du texte*/
+        background: #000;/* couleur de fond*/
+        height: 2.8em; /*hauteur*/
+        line-height: 2.7em; /*hauteur de l'interligne pour centrer verticalement le texte*/
+        padding: 0em 2em; /*2 valeurs => 0pour le haut et bas & 2 pour la droite et gauche*/
+        font-size: 1.2em;/* taille du texte*/
+        transition: 2s; /*temps de l'animation ici une transition de 2 secondes au survol de la souris sur mes liens de navigation*/
+    }
+    nav a:hover{
+        background: #fda500;
+        color: #000;
+    }
+    header{
+         background: greenyellow;
+    height: 120px;
+    margin: 0px;
+    padding: 5em 4em
+    }
+    main{ 
+        
+    background-color:grey;
+    height: 550px;
+    }
+    mark{
+        background-color: purple
+    }
+.a,.b{  float: left; /* effet flottant à gauche*/
+        width: 47.3%;
+        margin: 0.8em;
+         background: greenyellow;/* couleur de fond*/
+        height: 480px; /*hauteur*/
+        padding-left: 25px
+    }
