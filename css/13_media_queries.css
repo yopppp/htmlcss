@@ -1,0 +1,28 @@
+.zone-adaptative{
+    background: red; /*EMMET => bg + tab*/
+    color: white;
+    padding: 10px; /*EMMET => p10 = padding: 10 px;*/
+}
+
+@media (min-width: 768px){ /*min-width: 768px => à partir d'un ecran Large de 768px et au dessus*/
+    .zone-adaptative{
+        width: 750px;
+        background: orange;
+    }
+}
+/* Les media queries définissent des points de rupture/ de transistion d'affichage (break points)*/
+
+@media (min-width: 992px){ /* 992px et plus */
+    .zone-adaptative{
+        width: 970px;
+        background: blue;
+
+    }
+
+}
+@media (min-width: 1200px){ /* 1200px et plus */
+    .zone-adaptative{
+        width: 1170px;
+        background: green;
+    }
+}
