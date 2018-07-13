@@ -1,0 +1,15 @@
+.tailleFixe{
+    width: 1000px;
+    height: 200px;
+    border: 2px solid red;
+    margin-bottom: 30px;
+}
+
+.tailleVariable{
+    width: 100%;
+    /*responsive design fluid = adapte a la taille de l'ecran comme ici avec le % - le responsive design adaptatif lui rearrange les blocs du site et en enleve certains*/
+    height: 200px;
+    border: 2px solid blue;
+
+}
+/* Dans l'ordre de l'exterieur vers l'interieur : margin, border, padding, taille de la DIV */

@@ -1,0 +1,237 @@
+
+body {
+
+  font-family: "Cormorant Garamond", serif;
+
+  background-color: #f6f6f7;
+
+  width: 80%;
+
+  margin: 0 auto;
+
+}
+#plat{
+    background-image: url(img/woddPlank.jpg)
+}
+header {
+
+  width: 100%;
+
+  margin: 10% auto 5%; 
+  background-image: url(img/woddPlank.jpg)
+}
+
+section {
+
+  width: 100%;
+
+  display: inline-block;
+
+}
+
+footer {
+
+  margin: auto;
+
+  width: 100%;
+
+  
+
+  margin-bottom: 20%;
+
+  font-weight: bold;
+  background-image: url(img/woddPlank.jpg);
+ 
+
+}
+
+.graines{
+    width: 200px;
+    height: 200px;
+}
+
+hr{
+    color: purple;
+    
+}
+
+nav {
+
+  text-align: right;
+
+}
+
+nav ul li {
+
+  display: inline-block;
+
+}
+
+a {
+
+  text-decoration: none;
+
+  color: inherit; 
+}
+
+
+
+#gout {
+
+  margin-bottom: 10%;
+  background-image: url(img/eggs.jpg);
+  
+
+}
+
+
+.titre {
+
+  text-transform: uppercase;
+
+  font-size: 3rem;
+
+  letter-spacing: 0.2em;
+
+  text-align: left;
+
+}
+
+header h2.titre,
+
+
+
+.plate {
+
+  margin: 0;
+
+  width: 49.94%;
+
+  height: auto;
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+  font-weight: bold;
+
+}
+
+#salle .plate:first-child,
+
+#service .plate:last-child,
+
+#dressage .plate:first-child,
+
+#gout .plate:last-child {
+
+  padding: 3%;
+
+  width: 43.3%;
+
+}
+
+.plate img {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+
+.plate h3 {
+
+  text-transform: uppercase;
+
+  font-size: 4vw;
+
+  font-weight: bold;
+
+}
+
+.plate p {
+
+  
+
+  font-size: 1.5vw;
+
+}
+
+.plate p:last-of-type {
+
+  margin-bottom: 5%;
+
+}
+
+.plate span {
+
+  color: #fff;
+
+  background-color: #383838;
+
+  text-transform: uppercase;
+
+  font-size: 2vw;
+
+  padding: 1% 7% 1% 2%;
+
+  margin-top: 2%;
+
+}
+
+
+
+
+
+
+#plat .plate {
+
+  width: 49%;
+
+  text-align: right;
+
+}
+
+#plat .plate:last-of-type {
+
+  position: relative;
+
+  right: 15%;
+
+}
+
+#plat .plate img {
+
+  border-radius: 50%;
+
+  width: 80%;
+
+  display: block;
+
+  margin: auto;
+
+}
+
+#plat .plate h3 {
+
+  font-style: italic;
+
+  text-transform: inherit;
+
+  font-size: 2vw;
+
+}
+
+#plat .plate p {
+
+  text-transform: uppercase;
+
+  font-style: normal;
+
+  font-size: 1.9vw;
+
+  letter-spacing: 0.1rem;
+
+}
+
